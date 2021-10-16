@@ -1,0 +1,36 @@
+@import "variable";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.navlist,
+.logo,
+.search {
+  flex: 1;
+}
+.removelink {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  color: $primary-color;
+  font-weight: 700;
+}
+.sanolink {
+  text-decoration: none;
+  color: black;
+}
+.sanolink:hover {
+  cursor: pointer;
+  border-color: $info-color;
+  border-style: solid;
+  padding: 10px;
+  transition: 0.2s;
+  color: $primary-color;
+  font-weight: 700;
+}
+.navlist ul {
+  height: 20px;
+}
